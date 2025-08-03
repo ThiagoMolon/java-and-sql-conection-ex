@@ -7,8 +7,8 @@ import java.sql.DriverManager;
 public class Conector {
 
 	static final String URL = "jdbc:postgresql://localhost:5432/java-testes"; //incica o caminho do banco de dados
-	static final String USER = "postgres"; // aqui vai o nome usuario que vc quer acessar
-	static final String PASS = "1234"; // aqui a senha do seu banco
+	static final String USER = "------"; // aqui vai o nome usuario que vc quer acessar
+	static final String PASS = "------"; // aqui a senha do seu banco
 
 	public static Connection criarConexao() throws ClassNotFoundException, SQLException{
 	Class.forName("org.postgresql.Driver");
@@ -21,3 +21,4 @@ public class Conector {
 	}
 	
 }
+
