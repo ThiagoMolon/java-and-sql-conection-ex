@@ -9,8 +9,8 @@ public class Main {
 
     // Informações da sua conexão
     private static final String URL = "jdbc:postgresql://localhost:5432/java-testes";
-    private static final String USUARIO = "postgres";
-    private static final String SENHA = "1234";
+    private static final String USUARIO = "-------";
+    private static final String SENHA = "-------";
 
     public static void main(String[] args) {
         // Dados do novo produto
@@ -45,4 +45,5 @@ public class Main {
             e.printStackTrace();
         }
     }
+
 }
